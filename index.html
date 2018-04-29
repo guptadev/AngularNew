@@ -4,11 +4,11 @@
        <script src="./Script/app.min.js"></script>
 
     </head>
-<body style="background-color: green">
+<body ng-init="numbers=[1,2,3,4]" style="background-color: green">
 <center><h1 >welcome Angular</h1></center>
 
 <input type="text" ng-model="fav" placeholder="Enter your favourite food" />
 <p>Your favourite food is: {{fav}}</p>
-<p>{{5*10}}</p>
+<p>{{numbers[0] +numbers[2]}}</p>
 </body>
 </html> 
